@@ -1,12 +1,11 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <>
-      <h3>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex provident
-        explicabo voluptatum, voluptate voluptas facilis qui quo praesentium ut
-        recusandae, eaque nesciunt impedit minus? Reprehenderit sapiente
-        consectetur incidunt eos doloribus!
-      </h3>
-    </>
+      <div className = "text-2xl">
+        <h2 className="text-2xl font-bold min-h-screen flex justify-center items-center" >
+          Home Page
+        </h2>
+      </div>
   );
 }
